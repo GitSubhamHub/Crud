@@ -27,9 +27,9 @@
     }
     else{
         $id = $_POST["id"];
-        $name = $_POST["name"]
-        $email = $_POST["email"]
-        $phone = $_POST["phone"]
+        $name = $_POST["name"];
+        $email = $_POST["email"];
+        $phone = $_POST["phone"];
 
         $sql = "update crud1 set name='$name', email='$email', phone='$phone' where id='$id'";
         $result = $conn->query($sql);
